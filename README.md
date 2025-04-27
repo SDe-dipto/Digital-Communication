@@ -35,3 +35,6 @@ Let us say the receiver receives the following Signal - [[-1.00924005], [ 0.8661
 ![image](https://github.com/user-attachments/assets/44b4cc1d-fb1b-4f36-97f2-2026a676d6fc)  
 The ANN model is trained to accurately predict the symbols when we don't know the message signal's symbols a-priori.
 
+## Delta demodulator
+Delta modulation is one where amplitude of the carrier is varied in response to the instantaneous value of the input signal. A delta demodulator implements an integrator and a low-pass filter to to recover the analog signal from its modulated form.
+[temp.m](temp.m) file implements a delta modulator in MATLAB.
